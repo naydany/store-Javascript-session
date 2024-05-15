@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/main.js"></script> -->
+</head>
+
+<body>
+    <div class="container"></div>
+
+
+    <script>
+
+
+        let tasks = [
+            { description: "Task 1", priority: 1 },
+            { description: "Task 2", priority: 0 },
+            { description: "Task 3", priority: 1 },
+        ]
+        // console.log(tasks)
+
+        let container = document.querySelector('.container');
+        console.log(container);
+
+
+        let card = document.createElement('div');
+        card.classList = "card1";
+        card.textContent=tasks[0].description;
+        console.log(card)
+
+
+        
+    </script>
+</body>
+
+</html>
